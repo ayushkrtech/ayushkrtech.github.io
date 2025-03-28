@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link rel="stylesheet" href="assests/css/style.css">
-    <link rel="shortcut icon" href="assests/images/image.png" type="image/x-icon">
-    <title>Ayush Portfolio </title>
+    <link rel="shortcut icon" href="assests/images/video-editor-icon.png" type="image/x-icon">
+    <title>Ayush - Video Editor Portfolio</title>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
                         <div class="circle"></div>
                     </li>
                     <li class="nav_list">
-                        <a href="#about" class="nav_link">About</a>
+                        <a href="#portfolio" class="nav_link">Portfolio</a>
                         <div class="circle"></div>
                     </li>
                     <li class="nav_list">
@@ -38,7 +38,7 @@
             </div>
             <div class="nav-button">
                 <button class="btn">
-                    Services
+                    Hire Me
                 </button>
             </div>
             <div class="nav-menu-btn">
@@ -49,15 +49,80 @@
             <section class="featured-box" id="home">
                 <div class="featured-text">
                     <div class="featured-text-card">
-                        <span>Ayush</span>
+                        <span>Creative Video Editor</span>
                     </div>
-                    <div class="featured-name">
+                    <div class="featured-name" id="typed-output"></div>
+                </div>
+                <div class="featured-description">
+                    <p>Transforming raw footage into compelling visual stories across commercial, documentary, and creative genres.</p>
+                </div>
+            </section>
 
+            <section id="portfolio" class="portfolio-section">
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <video class="portfolio-video" 
+                               src="assests/videos/long-videos.mp4" 
+                               autoplay 
+                               muted 
+                               loop 
+                               playsinline>
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-description">
+                            <h3>Long Videos</h3>
+                            <p>Professional brand storytelling</p>
+                        </div>
+                        <div class="portfolio-item">
+                        <video class="portfolio-video" 
+                               src="assests/videos/short-video.mp4" 
+                               autoplay 
+                               muted 
+                               loop 
+                               playsinline>
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-description">
+                            <h3>Short Videos</h3>
+                            <p>Narrative-driven storytelling</p>
+                        </div>
                     </div>
                 </div>
             </section>
-        </main>
 
+            <section id="skills" class="skills-section">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="uil uil-video"></i>
+                        <h3>Editing Software</h3>
+                        <p>Adobe Premiere Pro, Final Cut Pro, DaVinci Resolve</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="uil uil-illustrations"></i>
+                        <h3>Motion Graphics</h3>
+                        <p>After Effects, Motion Design, Animations</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="uil uil-focus-target"></i>
+                        <h3>Color Grading</h3>
+                        <p>Advanced color correction techniques</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact-section">
+                <h2>Let's Collaborate</h2>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Project Details" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
     </div>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
